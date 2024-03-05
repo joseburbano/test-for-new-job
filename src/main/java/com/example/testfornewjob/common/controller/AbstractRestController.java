@@ -2,7 +2,7 @@ package com.example.testfornewjob.common.controller;
 import com.example.testfornewjob.common.dto.ResponseDTO;
 
 /**
- * Clase abstracta que implementa funcionalidades generales de los controladores
+ * Abstract class that implements general controller functionalities.
  */
 public abstract class AbstractRestController {
 
