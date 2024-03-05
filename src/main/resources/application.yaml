@@ -6,3 +6,6 @@ spring:
   # Application name
   application:
     name: test-for-new-job
+  cloud:
+    compatibility-verifier:
+      enabled: false
