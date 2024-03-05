@@ -28,7 +28,7 @@ public class ChallengeController extends AbstractRestController {
     public ResponseEntity<ResponseDTO> maximumRequestPost(@Valid @RequestBody ChallengeDTO challengeDTO) {
 
         ResponseDTO responseDTO = buildSuccessResponseDTO(challengeService.calculateMaximum(challengeDTO));
-        return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
+        return new ResponseEntity<>(responseDTO, HttpStatus.OK);
     }
 
     @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
